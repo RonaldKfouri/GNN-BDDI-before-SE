@@ -20,7 +20,7 @@ The code requires familiarity with MATLAB, MATPOWER, Python, PyTorch, PyTorch Ge
 6. [Fourtneen_Bus.ipynb](Fourtneen_Bus.ipynb) - GNN architecture and Edge-Conditioned Convolution (ECC) layer; also, for training and testing the algorithm;
 7. To explain the GNN using GNNExplainer, a script will be added soon
 
------
+----
 
 **Notes**:
 - The repository is structed to match the workflow described in the paper for full reproducibility.  
