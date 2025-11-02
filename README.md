@@ -16,9 +16,9 @@ The code requires familiarity with MATLAB, MATPOWER, Python, PyTorch, PyTorch Ge
 2. [Generating_Data_for_Case14.md](Generating_Data_for_Case14.md) - Solving the AC Power Flow problem'
 3. [Formulas_for_adding_Noise_Case14.md](Formulas_for_adding_Noise_Case14.md) - Adding synthetic Gaussian noise'
 4. [Extracting_Feature_Names.md](Extracting_Feature_Names.md) - Extracting feature names (optional; you can use other tools);
-5. Measurement selection - PMUs are placed on odd-indexed nodes, SCADA measurements are placed on even-indexed nodes. Measurement redundancy is guaranteed. You can use any library to prepare the measurements; they should be saved as nodes features, edge features, and encoded outputs;
+5. Measurement selection - PMUs are placed on odd-indexed nodes and SCADA measurements are placed on even-indexed nodes. Measurement redundancy is guaranteed. You can use any library to prepare the measurements; they should be saved as three separate files: one for nodes features, one edge features, and one for the encoded outputs;  
 6. [Fourtneen_Bus.ipynb](Fourtneen_Bus.ipynb) - GNN architecture and Edge-Conditioned Convolution (ECC) layer; also, for training and testing the algorithm;
-7. [Explanations.ipynb](Explanations.ipynb) - GNNExplainer is extended and used to explain the feature important of the nodes and edges. As with the paper, only the 6-bus case is shown.
+7. [Explanations.ipynb](Explanations.ipynb) - GNNExplainer is extended and used to explain the feature importance of the nodes and edges. As with the paper, only the 6-bus case is shown.
 
 ----
 
