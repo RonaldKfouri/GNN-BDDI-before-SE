@@ -18,7 +18,7 @@ The code requires familiarity with MATLAB, MATPOWER, Python, PyTorch, PyTorch Ge
 4. [Extracting_Feature_Names.md](Extracting_Feature_Names.md) - Extracting feature names (optional; you can use other tools);
 5. Measurement selection - PMUs are placed on odd-indexed nodes, SCADA measurements are placed on even-indexed nodes. Measurement redundancy is guaranteed. You can use any library to prepare the measurements; they should be saved as nodes features, edge features, and encoded outputs;
 6. [Fourtneen_Bus.ipynb](Fourtneen_Bus.ipynb) - GNN architecture and Edge-Conditioned Convolution (ECC) layer; also, for training and testing the algorithm;
-7. T[Explanations.ipynb](Explanations.ipynb) - GNNExplainer is extended and used to explain the feature important of the nodes and edges. As with the paper, only the 6-bus case is shown.
+7. [Explanations.ipynb](Explanations.ipynb) - GNNExplainer is extended and used to explain the feature important of the nodes and edges. As with the paper, only the 6-bus case is shown.
 
 ----
 
