@@ -1,6 +1,6 @@
 # Bad Data Detection and Identification Based on Graph Neural Network for Power System State Estimation
 
-This repository contains example codes extracted from the paper "Bad Data Detection and Identification Based on Graph Neural Network for Power System State Estimation", published in the _Journal of Modern Power Systems and Clean Energy_. 
+This repository contains example codes extracted from the paper "[Bad Data Detection and Identification Based on Graph Neural Network for Power System State Estimation](https://ieeexplore.ieee.org/document/11244249)", published in the _Journal of Modern Power Systems and Clean Energy_. 
 
 The paper propses a Graph Neural Network (GNN) framework that detects and identifies bad data _before_ feeding the measurements into a state estimator. 
 
