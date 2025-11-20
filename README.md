@@ -22,9 +22,8 @@ The code requires familiarity with MATLAB, MATPOWER, Python, PyTorch, PyTorch Ge
 
 ----
 
-**Notes**:
-- The repository is structed to match the workflow described in the paper for full reproducibility.  
-- Please cite the paper once it becomes available.
+**Note**:  
+The repository is structed to match the workflow described in the paper for full reproducibility.  
 
 ---
 
