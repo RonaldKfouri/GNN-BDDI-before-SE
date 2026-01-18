@@ -103,7 +103,7 @@ end
 ```
 
 Finally, they are saved in CSV files.  
-Note: we may not be using all the files at later stages but it is good to store them all so you wouldn't run iterations again.
+Note: we may not be using all the files at later stages but it is good to store them all so we wouldn't run iterations again.
 ```matlab
 % Save results to CSV files
 writematrix(voltage_magnitudes, '~/Your_Path/Voltage_Magnitudes_case14.csv');
@@ -118,4 +118,5 @@ writematrix(branch_current_magnitudes_from, '~/Your_Path/Branch_Current_Magnitud
 writematrix(branch_current_angles_from, '~/Your_Path/Branch_Current_Angles_From_case14.csv');
 writematrix(branch_current_magnitudes_to, '~/Your_Path/Branch_Current_Magnitudes_To_case14.csv');
 writematrix(branch_current_angles_to, '~/Your_Path/Branch_Current_Angles_To_case14.csv');
+
 ```
